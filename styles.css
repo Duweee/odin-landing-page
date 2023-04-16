@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200&family=Inter:wght@200&family=Mulish:ital,wght@0,200;1,200&family=Quicksand&family=Work+Sans:wght@100&display=swap');
+:root {
+    font-family: 'quicksand', system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: var(--banner-width);
+    height: 100vh;
+    object-fit: cover;
+    object-position: 75%;
+}
+
+.left-banner {
+    --banner-width: 40vw;
+}
+
+.label {
+    position: absolute;
+    top: 30%;
+    height: 15em;
+    width: var(--banner-width);
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label > h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.right-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.right-banner > p {
+    font-size: 30px;
+    margin: 0px 50px;
+}
+
+form {
+    width: 100%;
+}
+
+.hoverbox {
+    margin-top: 50px;
+    background-color: white;
+    height: 14rem;
+    padding: 20px 50px;
+    box-shadow: 0 5px 5px lightgray;
+}
+
+.hoverbox h3 {
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+
+.form-row {
+    display: flex;
+    justify-content: left;
+    gap: 70px
+}
+
+.form-column{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-column div {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-style: solid;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: burlywood;
+    color: white;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+    font-size: 15px;
+    margin: 30px 0 0 50px;
+    box-shadow: 2px 5px 5px gray;
+}
+
+form p {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+form a {
+    color: brown;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+}
